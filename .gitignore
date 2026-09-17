@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+._*
+payload/
+manifest.json
+*.zip
+*.bin

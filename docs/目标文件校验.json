@@ -1,0 +1,37 @@
+[
+  {
+    "scope": "game",
+    "path": "PS3_GAME/USRDIR/game.arb",
+    "bytes": 3578790656,
+    "sha256": "f4f43cd13a6b66e3487cdbfdeee6c599e2574be14e066cf1b4e102ec6866ee90",
+    "installer_rebuild_verified": true
+  },
+  {
+    "scope": "game",
+    "path": "PS3_GAME/USRDIR/movie.arb",
+    "bytes": 1123319808,
+    "sha256": "c37b682204e8892530951e39044203be1866b6888f876e1fb4195129858586ff",
+    "installer_rebuild_verified": true
+  },
+  {
+    "scope": "game",
+    "path": "PS3_GAME/USRDIR/movie2.arb",
+    "bytes": 1904965632,
+    "sha256": "fb056fda4c1c4359d37797b5ba47525ed76b643edaeb0e784d234567f429b8be",
+    "installer_rebuild_verified": true
+  },
+  {
+    "scope": "update",
+    "path": "USRDIR/patch/patch0100_arb.sdat",
+    "bytes": 66348400,
+    "sha256": "a1a7e32ad34adc86bc1a76385a0c24aab2a9e1d667d61151f7fe920c297a63e1",
+    "installer_rebuild_verified": true
+  },
+  {
+    "scope": "update",
+    "path": "USRDIR/patch/patch0200_arb.sdat",
+    "bytes": 23107088,
+    "sha256": "8ac0d8fdad6600df9313fa6245f1eaaf693a6249508942389a759fff33524ba3",
+    "installer_rebuild_verified": true
+  }
+]
