@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "game": "BLJS10050",
+  "runtime_verified": false,
+  "saves": [
+    {
+      "id": "e-online",
+      "title": "联邦 · 联机独占",
+      "slot": "E01",
+      "directory": "BLJS10050-FREEMISSIONDAT2-E01",
+      "description": "武器/盾牌 45 种、部件 36 种；保留 3 台初始机体。",
+      "hashes": {
+        "ICON0.PNG": "6ebaa180319e490f19ae78019cb6ddde74efa4a0093599c88e8c268f5e94c178",
+        "PARAM.SFO": "895b684fa2f20691e91349672dd45055e22b62e3178efc15205a41b75f331aa5",
+        "PIC1.PNG": "e1963d7b057d6271378b80d8318a869553ff467d370363e0bd68fe6a843e4367",
+        "USERDATA.BIN": "eece7b6a2c0fda3dcdd11f69daef1acdc85a4ea27187d73a8a5feb3f348ea663"
+      },
+      "userdata_sha256": "eece7b6a2c0fda3dcdd11f69daef1acdc85a4ea27187d73a8a5feb3f348ea663"
+    },
+    {
+      "id": "e-all",
+      "title": "联邦 · 全部可解锁",
+      "slot": "E00",
+      "directory": "BLJS10050-FREEMISSIONDAT2-E00",
+      "description": "武器 132 种、部件 121 种、98 种机体（共 99 台）；13 件来源未确认武器不含在内。",
+      "hashes": {
+        "ICON0.PNG": "6ebaa180319e490f19ae78019cb6ddde74efa4a0093599c88e8c268f5e94c178",
+        "PARAM.SFO": "7149b1f7e41667792bc80f3861402b6ad9a3ccb5eebbe43a77395bed60e2e9f3",
+        "PIC1.PNG": "e1963d7b057d6271378b80d8318a869553ff467d370363e0bd68fe6a843e4367",
+        "USERDATA.BIN": "32d06f2c5df4ecff99d6c0e11b9f3953f982065f2efe263d7972ff1c749a9d6a"
+      },
+      "userdata_sha256": "32d06f2c5df4ecff99d6c0e11b9f3953f982065f2efe263d7972ff1c749a9d6a"
+    },
+    {
+      "id": "z-online",
+      "title": "吉翁 · 联机独占",
+      "slot": "Z01",
+      "directory": "BLJS10050-FREEMISSIONDAT2-Z01",
+      "description": "武器/盾牌 45 种、部件 36 种；保留 3 台初始机体。",
+      "hashes": {
+        "ICON0.PNG": "2bc81bf09ac62fb1de953767f7b3f4c49906ddc5a99ca81f056eab76db0d136c",
+        "PARAM.SFO": "0eefec9a1177d52b2b6762c4130c71ed21f7acdef55bf2156ec0ddca301e7794",
+        "PIC1.PNG": "e1963d7b057d6271378b80d8318a869553ff467d370363e0bd68fe6a843e4367",
+        "USERDATA.BIN": "b20de4dcaf9806d56327c935a64f98d97431ebe51988123f83b9a721dbb6121f"
+      },
+      "userdata_sha256": "b20de4dcaf9806d56327c935a64f98d97431ebe51988123f83b9a721dbb6121f"
+    },
+    {
+      "id": "z-all",
+      "title": "吉翁 · 全部可解锁",
+      "slot": "Z00",
+      "directory": "BLJS10050-FREEMISSIONDAT2-Z00",
+      "description": "武器 132 种、部件 121 种、98 种机体（共 99 台）；13 件来源未确认武器不含在内。",
+      "hashes": {
+        "ICON0.PNG": "2bc81bf09ac62fb1de953767f7b3f4c49906ddc5a99ca81f056eab76db0d136c",
+        "PARAM.SFO": "fc4319ddc8605a1ebc39b9b082712b94a05444b874d7857e666ee8131f4d8404",
+        "PIC1.PNG": "e1963d7b057d6271378b80d8318a869553ff467d370363e0bd68fe6a843e4367",
+        "USERDATA.BIN": "efac6dd21aba504d53bca395fea26827cf9799dad7dd762c98b8bd7936055c18"
+      },
+      "userdata_sha256": "efac6dd21aba504d53bca395fea26827cf9799dad7dd762c98b8bd7936055c18"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": "0.1.0",
+  "platform_tested": "macOS Apple Silicon / Python 3.10",
+  "windows_native_tested": false,
+  "intel_mac_native_tested": false,
+  "game_runtime_verified": false,
+  "live_saves_written": false,
+  "unit_tests_passed": 17,
+  "gui_layout": {
+    "size": [
+      880,
+      740
+    ],
+    "controls": 23,
+    "overflow": false
+  },
+  "save_audit": {
+    "e-online": {
+      "faction": 0,
+      "tier": 1,
+      "points": 5000,
+      "turn": 0,
+      "unit_count": 3,
+      "unique_units": 2,
+      "missions": {
+        "123": 1
+      },
+      "checked_rewards": 81,
+      "reward_missing": [],
+      "missing_units": [],
+      "problems": []
+    },
+    "e-all": {
+      "faction": 0,
+      "tier": 2,
+      "points": 5000,
+      "turn": 0,
+      "unit_count": 99,
+      "unique_units": 98,
+      "missions": {
+        "123": 1
+      },
+      "checked_rewards": 253,
+      "reward_missing": [],
+      "missing_units": [],
+      "problems": []
+    },
+    "z-online": {
+      "faction": 1,
+      "tier": 1,
+      "points": 5000,
+      "turn": 0,
+      "unit_count": 3,
+      "unique_units": 2,
+      "missions": {
+        "171": 1
+      },
+      "checked_rewards": 81,
+      "reward_missing": [],
+      "missing_units": [],
+      "problems": []
+    },
+    "z-all": {
+      "faction": 1,
+      "tier": 2,
+      "points": 5000,
+      "turn": 0,
+      "unit_count": 99,
+      "unique_units": 98,
+      "missions": {
+        "171": 1
+      },
+      "checked_rewards": 253,
+      "reward_missing": [],
+      "missing_units": [],
+      "problems": []
+    }
+  }
+}

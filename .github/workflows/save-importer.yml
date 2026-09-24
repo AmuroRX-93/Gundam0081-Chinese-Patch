@@ -1,0 +1,44 @@
+name: Save importer portable verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-2022
+            platform: Windows-x64
+            executable: runtime/python.exe
+          - os: macos-15-intel
+            platform: macOS-Intel
+            executable: runtime/bin/python3
+          - os: macos-15
+            platform: macOS-AppleSilicon
+            executable: runtime/bin/python3
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build pinned portable directory
+        run: python tools/save-importer/build_portable.py --platform ${{ matrix.platform }}
+      - name: Verify bundled runtime and Tcl/Tk
+        working-directory: portable/SuitenSaveImporter-0.2.0-${{ matrix.platform }}
+        shell: bash
+        run: ./${{ matrix.executable }} -I -B runtime_check.py
+      - name: Test imports and rollback using bundled runtime
+        working-directory: portable/SuitenSaveImporter-0.2.0-${{ matrix.platform }}
+        shell: bash
+        run: ./${{ matrix.executable }} -I -B test_importer.py
+      - name: Create and verify ZIP
+        run: python tools/save-importer/build_portable.py --pack portable/SuitenSaveImporter-0.2.0-${{ matrix.platform }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SuitenSaveImporter-${{ matrix.platform }}
+          path: portable/*.zip
+          retention-days: 7
