@@ -62,7 +62,7 @@ def pack(stage):
  # Do not ship local bytecode caches or reports with machine paths.
  for p in list(stage.rglob('__pycache__')):shutil.rmtree(p)
  sums=''.join(sha(p)+'  '+p.relative_to(stage).as_posix()+'\n' for p in sorted(stage.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.txt')
- (stage/'SHA256SUMS.txt').write_text(sums)
+ (stage/'SHA256SUMS.txt').write_text(sums,encoding='utf-8')
  dest=stage.parent/(stage.name+'.zip')
  with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
   for p in sorted(stage.rglob('*')):
