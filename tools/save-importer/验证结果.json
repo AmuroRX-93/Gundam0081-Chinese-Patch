@@ -1,79 +1,66 @@
 {
-  "version": "0.1.0",
-  "platform_tested": "macOS Apple Silicon / Python 3.10",
-  "windows_native_tested": false,
-  "intel_mac_native_tested": false,
-  "game_runtime_verified": false,
-  "live_saves_written": false,
-  "unit_tests_passed": 17,
-  "gui_layout": {
-    "size": [
-      880,
-      740
-    ],
-    "controls": 23,
-    "overflow": false
-  },
-  "save_audit": {
-    "e-online": {
-      "faction": 0,
-      "tier": 1,
-      "points": 5000,
-      "turn": 0,
-      "unit_count": 3,
-      "unique_units": 2,
-      "missions": {
-        "123": 1
-      },
-      "checked_rewards": 81,
-      "reward_missing": [],
-      "missing_units": [],
-      "problems": []
+  "version": "0.2.0",
+  "runtime": "CPython 3.12.14 + Tcl/Tk",
+  "runtime_source": "astral-sh/python-build-standalone 20260901",
+  "source_repository": "AmuroRX-93/Gundam0081-Chinese-Patch",
+  "verified_build_commit": "7239453",
+  "ci_url": "https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/actions/runs/36003096309",
+  "ci": {
+    "Windows-x64": {
+      "runner": "windows-2022",
+      "runtime_smoke": "passed",
+      "import_restore_tests": 17,
+      "zip_checks": "passed"
     },
-    "e-all": {
-      "faction": 0,
-      "tier": 2,
-      "points": 5000,
-      "turn": 0,
-      "unit_count": 99,
-      "unique_units": 98,
-      "missions": {
-        "123": 1
-      },
-      "checked_rewards": 253,
-      "reward_missing": [],
-      "missing_units": [],
-      "problems": []
+    "macOS-Intel": {
+      "runner": "macos-15-intel",
+      "runtime_smoke": "passed",
+      "import_restore_tests": 17,
+      "zip_checks": "passed"
     },
-    "z-online": {
-      "faction": 1,
-      "tier": 1,
-      "points": 5000,
-      "turn": 0,
-      "unit_count": 3,
-      "unique_units": 2,
-      "missions": {
-        "171": 1
-      },
-      "checked_rewards": 81,
-      "reward_missing": [],
-      "missing_units": [],
-      "problems": []
-    },
-    "z-all": {
-      "faction": 1,
-      "tier": 2,
-      "points": 5000,
-      "turn": 0,
-      "unit_count": 99,
-      "unique_units": 98,
-      "missions": {
-        "171": 1
-      },
-      "checked_rewards": 253,
-      "reward_missing": [],
-      "missing_units": [],
-      "problems": []
+    "macOS-AppleSilicon": {
+      "runner": "macos-15",
+      "runtime_smoke": "passed",
+      "import_restore_tests": 17,
+      "zip_checks": "passed"
     }
-  }
+  },
+  "local_checks": {
+    "arm64_runtime": "passed",
+    "x86_64_runtime_via_rosetta": "passed",
+    "gui": {
+      "size": [
+        880,
+        740
+      ],
+      "controls": 23,
+      "overflow": false
+    },
+    "zip_crc_and_sha256": "passed"
+  },
+  "game_runtime_verified": false,
+  "current_player_saves_modified": false,
+  "assets": [
+    {
+      "file": "SuitenSaveImporter-0.2.0-Windows-x64.zip",
+      "size": 22074271,
+      "sha256": "84449b6edf30075d51748d822ef3251d5677f1ddb1a6e6da00a23b526f6a38b0"
+    },
+    {
+      "file": "SuitenSaveImporter-0.2.0-macOS-AppleSilicon.zip",
+      "size": 42998465,
+      "sha256": "08189c849fd9df973e4b0297d4a1b828eb029be34e1f326c039057ccb61f1ca5"
+    },
+    {
+      "file": "SuitenSaveImporter-0.2.0-macOS-Intel.zip",
+      "size": 42485295,
+      "sha256": "7bf3fdc1fcba90a07b634b110e56e445bae7c7e7ea4703c41ec38fffe47e4dea"
+    }
+  ],
+  "notes": [
+    "三平台测试均使用临时模拟存档；运行时测试不是游戏内通关测试。",
+    "发行 ZIP 在本机从同一套源码、载荷及固定运行时构建，随包校验清单验证通过。",
+    "Windows 通过 Windows Server 2022 构建环境检查，不冒称在每种 Windows 10/11 用户电脑上实测。",
+    "网盘留存 ZIP 与 GitHub 上传文件为同一份；服务器端校验另在发布核验文件中记录。"
+  ]
 }
