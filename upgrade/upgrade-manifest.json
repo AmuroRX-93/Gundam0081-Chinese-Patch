@@ -1,0 +1,689 @@
+{
+  "format": 1,
+  "release": "2026.09.25-upgrade.1",
+  "title_id": "BLJS10050",
+  "baseline": "20260917_r1",
+  "members": [
+    {
+      "path": "game/interface/pause2.tsb",
+      "before": "1d2f9a4c7338657d905fdb2475552685c13cd01206a9ca3deee0da8b1ecf7d9f",
+      "after": "d763106d28a0cd6e7950cd5f9dbd72f868fbb00c641888dba426fb1dcf7eb3a6",
+      "old_size": 1270656,
+      "new_size": 1270656,
+      "blob": "payload/member-00.bin",
+      "blob_sha256": "7d9cbbcf584150f2dbb999437703443704aa58710d2b853f08835478b2bcefcf",
+      "segments": [
+        [
+          "copy",
+          0,
+          733184
+        ],
+        [
+          "add",
+          0,
+          28672
+        ],
+        [
+          "copy",
+          761856,
+          508800
+        ]
+      ]
+    },
+    {
+      "path": "game/interface/pause2.fpk",
+      "before": "42e84d0ff0f8da549d478626a6617a311f16418349d40871c8c69e14a45c5561",
+      "after": "5698c2973689f2650542f514c0ef55ded59d9e8149553c39f105281a9d6a1319",
+      "old_size": 206944,
+      "new_size": 206944,
+      "blob": "payload/member-01.bin",
+      "blob_sha256": "4037369e172a8954d91b7cb7acda01fcbce7dbf3775bd1a5cdaf6ada696482c7",
+      "segments": [
+        [
+          "copy",
+          0,
+          110592
+        ],
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          114688,
+          92256
+        ]
+      ]
+    },
+    {
+      "path": "game/interface/briefing.tsb",
+      "before": "479ec709f614dc33fd2557cd5695e79595ca189e3ee9210cab397ac84357681e",
+      "after": "8ce27660306cac5c618e4e7a138a8eff69dc19ce003365debd59658a8f094008",
+      "old_size": 7567360,
+      "new_size": 7567360,
+      "blob": "payload/member-02.bin",
+      "blob_sha256": "7551184b48cbf6c1f1e8eff016c0b676d9082a5004bfd730ceacb4fe7147187c",
+      "segments": [
+        [
+          "copy",
+          0,
+          778240
+        ],
+        [
+          "copy",
+          938064,
+          65536
+        ],
+        [
+          "copy",
+          843776,
+          4096
+        ],
+        [
+          "copy",
+          1007696,
+          217088
+        ],
+        [
+          "copy",
+          1064960,
+          20480
+        ],
+        [
+          "copy",
+          1245264,
+          12288
+        ],
+        [
+          "copy",
+          1097728,
+          8192
+        ],
+        [
+          "copy",
+          1265744,
+          90112
+        ],
+        [
+          "copy",
+          1196032,
+          12288
+        ],
+        [
+          "copy",
+          1368144,
+          16384
+        ],
+        [
+          "copy",
+          1224704,
+          3833856
+        ],
+        [
+          "copy",
+          5218384,
+          8192
+        ],
+        [
+          "copy",
+          5066752,
+          57344
+        ],
+        [
+          "copy",
+          5283920,
+          4096
+        ],
+        [
+          "copy",
+          5128192,
+          364544
+        ],
+        [
+          "copy",
+          5652560,
+          4096
+        ],
+        [
+          "copy",
+          5496832,
+          233472
+        ],
+        [
+          "add",
+          0,
+          229376
+        ],
+        [
+          "copy",
+          5959680,
+          32768
+        ],
+        [
+          "add",
+          229376,
+          61440
+        ],
+        [
+          "copy",
+          6053888,
+          4096
+        ],
+        [
+          "add",
+          290816,
+          24576
+        ],
+        [
+          "copy",
+          6082560,
+          1484800
+        ]
+      ]
+    },
+    {
+      "path": "game/interface/in_game_supply.fpk",
+      "before": "3cba85be6179dc76548c66e1377523587ac4696a640fd50f748e8de0683d0d95",
+      "after": "40608aa0411ac064b5038545f1a2eb875249ddefd31abc33ba31c7e1edf2b1d0",
+      "old_size": 92496,
+      "new_size": 92496,
+      "blob": "payload/member-03.bin",
+      "blob_sha256": "9e76d9e18b4c3597aed1b6f7f9a9acf207b53e36dda81754f9934986cd9d9c03",
+      "segments": [
+        [
+          "copy",
+          0,
+          40960
+        ],
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          45056,
+          8192
+        ],
+        [
+          "add",
+          4096,
+          4096
+        ],
+        [
+          "copy",
+          57344,
+          35152
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp00.xmb",
+      "before": "37636627b6c3ccd8e6d227a652f850d76914a5c3bb9f7712ead1537264238186",
+      "after": "9fb5ad162f2d1039cb6470ea2a15b14473dd6f76b3ba605c05fe28259257db50",
+      "old_size": 39846,
+      "new_size": 39837,
+      "blob": "payload/member-04.bin",
+      "blob_sha256": "fae91649d8866bba903c52e93ce2ddbc37a2fd4d6d4960a34c921e490a2a9d43",
+      "segments": [
+        [
+          "add",
+          0,
+          32768
+        ],
+        [
+          "copy",
+          32774,
+          4096
+        ],
+        [
+          "add",
+          32768,
+          2973
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp01.xmb",
+      "before": "b9a93842fce99a9a6948d1a8811214c5d33dd7cadcaaa49c46e0a943274573ce",
+      "after": "23e1fe1e4d50f23dcb4f552bf03eeb140d849a4ccb7ee063a2defaf7651680db",
+      "old_size": 74518,
+      "new_size": 74516,
+      "blob": "payload/member-05.bin",
+      "blob_sha256": "234842df0c9281db6c65f723ed541bb93e409ae264d63f1ccabe53861f83c8b4",
+      "segments": [
+        [
+          "add",
+          0,
+          49152
+        ],
+        [
+          "copy",
+          49151,
+          4096
+        ],
+        [
+          "add",
+          49152,
+          21268
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp02.xmb",
+      "before": "46743120e498b20611080e36c0da3c64aa0cf95ff63a714215a7521431ca791b",
+      "after": "cede0ff9670cd74da8616a29e4693309a16dfa3237b48229f38fc0c8b4dbb0ad",
+      "old_size": 72950,
+      "new_size": 72950,
+      "blob": "payload/member-06.bin",
+      "blob_sha256": "b3cbf5c549639ecb4464899e8c49801374de85baf94ded6bc25204c29e53cf31",
+      "segments": [
+        [
+          "copy",
+          0,
+          40960
+        ],
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          45056,
+          8192
+        ],
+        [
+          "add",
+          4096,
+          4096
+        ],
+        [
+          "copy",
+          57344,
+          15606
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp03.xmb",
+      "before": "4dd73e2d0230bceee039b32fcda613d166ba67c8ac029b693ee2210422a5acec",
+      "after": "51e40698a128e1752f5a768095cd79cac007b62e04efd96c8d510bf8fcd8705a",
+      "old_size": 55496,
+      "new_size": 55503,
+      "blob": "payload/member-07.bin",
+      "blob_sha256": "c654a1b06e3c1fb02153ec8fce7f37d2d0f13849cea7616cd760620e809db8c5",
+      "segments": [
+        [
+          "copy",
+          0,
+          8192
+        ],
+        [
+          "add",
+          0,
+          20480
+        ],
+        [
+          "copy",
+          28672,
+          8192
+        ],
+        [
+          "add",
+          20480,
+          4096
+        ],
+        [
+          "copy",
+          40953,
+          14543
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0000.xmb",
+      "before": "a2b6da682a3ef246e6bac2af4252987a91ef444e4a57cf434baedb3690c14237",
+      "after": "365a64143b27306f2cd8febdf0d9326b488d7cdcbdb98dc0a9d41dfa263053ad",
+      "old_size": 59865,
+      "new_size": 59859,
+      "blob": "payload/member-08.bin",
+      "blob_sha256": "4829ec432938cd144e41e92a222877c80103782d0912c7546539b2ee046cf65b",
+      "segments": [
+        [
+          "add",
+          0,
+          45056
+        ],
+        [
+          "copy",
+          45062,
+          4096
+        ],
+        [
+          "add",
+          45056,
+          4096
+        ],
+        [
+          "copy",
+          53254,
+          6611
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0001.xmb",
+      "before": "93060ba40b237ab335d1669b1e1c2d48cf333074deed49c64798202d5f4f67d9",
+      "after": "a485d1e3d45a556ecd8285fb2e729be8d58a5310f296bf8e43d219a682f26398",
+      "old_size": 4733,
+      "new_size": 4733,
+      "blob": "payload/member-09.bin",
+      "blob_sha256": "ec86d58335588fcd9fde2f6ce5b775e515dee19809ab703e952b7df00d491f1f",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4096,
+          637
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0002.xmb",
+      "before": "11f73d78e394c281eaf1284e3b722752a034a2371e9228d98f2399eeee35a062",
+      "after": "74279f4c20d91b1cac639e227bbd7ef6d470c4cdc4d537ab2415cc4f1a74fec7",
+      "old_size": 4668,
+      "new_size": 4668,
+      "blob": "payload/member-10.bin",
+      "blob_sha256": "477d9f8853d95deaf20d032f6ff4965ce0f3e926a12ec1c2aa46bc32766568ec",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4096,
+          572
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0101.xmb",
+      "before": "b10255ba83a839a6ec5bdf31859099dc95c2ed3b0b5000d65e6f3c85f622abf2",
+      "after": "009b50e6cfaeb0c83836c394396826606b303576bbbe66a2ccdb5fe4867c7392",
+      "old_size": 6420,
+      "new_size": 6423,
+      "blob": "payload/member-11.bin",
+      "blob_sha256": "7ac116c035ada9048f1ec1c4e59bba278851429a5e90ee538d17d690371601eb",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4093,
+          2327
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0108.xmb",
+      "before": "e8ffedce3ccaa81dab9b834bcb674e0bdd3c9cac87049975eada840215d0a21b",
+      "after": "ae24cad7d8b6347f5690e4b14ff00ce087627f6c0300ccecbc6163a191a421b1",
+      "old_size": 15833,
+      "new_size": 15836,
+      "blob": "payload/member-12.bin",
+      "blob_sha256": "3a585ddffaf34b2d022c2d607501fa0e533751e4d2e68fdb7555030a31539bbd",
+      "segments": [
+        [
+          "copy",
+          0,
+          4096
+        ],
+        [
+          "add",
+          0,
+          11740
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0111.xmb",
+      "before": "8e11263ac30acd61f55d6845664049eac124f928d648a43cd0afb55d9800877a",
+      "after": "6186ee3c5db14ab282e9305b6be5f9b81217766a39d5a1b323be15ea56e55c56",
+      "old_size": 7953,
+      "new_size": 7953,
+      "blob": "payload/member-13.bin",
+      "blob_sha256": "fa509fda491a09b8a615a6ba0c1d4fcf8837517ec627ed91d4511b4dac30c1fa",
+      "segments": [
+        [
+          "copy",
+          0,
+          4096
+        ],
+        [
+          "add",
+          0,
+          3857
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0113.xmb",
+      "before": "e5019d813dab99c5c40c47843bde4cc28902eed71d733462f98e38a45fc0f1fc",
+      "after": "2db2cf88f1d0faa491ecb5526ad9d4a9aeff9e6f09fd64bf98ebfcf12ac8d14e",
+      "old_size": 10865,
+      "new_size": 10868,
+      "blob": "payload/member-14.bin",
+      "blob_sha256": "2db2cf88f1d0faa491ecb5526ad9d4a9aeff9e6f09fd64bf98ebfcf12ac8d14e",
+      "segments": [
+        [
+          "add",
+          0,
+          10868
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0154.xmb",
+      "before": "8951250d8c627148b5665a808c78386553cc2d1c7f3fe4c3a2897b488677c8c7",
+      "after": "839b793bb1b5c014a0b0ee52be050e9bf5170533f0a32a804e20e5d8500c38a0",
+      "old_size": 4834,
+      "new_size": 4834,
+      "blob": "payload/member-15.bin",
+      "blob_sha256": "3479210f6f5a6717d899c45bdd9d808f787c05b60bed6a963725b7dd36dd9bad",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4096,
+          738
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0167.xmb",
+      "before": "5c20e37117739b23d1eb5c83f1764a9471eeb67a3a5afdd3ceec01d4df19e95b",
+      "after": "7d038705e10685dddd9f036a41c7c4147e54f012c61d0f11738bc44b81222bf4",
+      "old_size": 10268,
+      "new_size": 10262,
+      "blob": "payload/member-16.bin",
+      "blob_sha256": "7d038705e10685dddd9f036a41c7c4147e54f012c61d0f11738bc44b81222bf4",
+      "segments": [
+        [
+          "add",
+          0,
+          10262
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0291.xmb",
+      "before": "679562316fd006765f6056e78e76164ceca0aacd2db64fdb4f882d6a9b0ee898",
+      "after": "979744dd57364bdfc0d4eeb5040579f05b085783e797f340032bd11604e3a31a",
+      "old_size": 1343,
+      "new_size": 1343,
+      "blob": "payload/member-17.bin",
+      "blob_sha256": "979744dd57364bdfc0d4eeb5040579f05b085783e797f340032bd11604e3a31a",
+      "segments": [
+        [
+          "add",
+          0,
+          1343
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0293.xmb",
+      "before": "b81d2474db7d4060f1d8701530cad208fbc4c802134d23b981377053cd0afaab",
+      "after": "38e8bd7ed9ec402a0bd9a3e91cc952dc7ae9163484c4beeafcb5da3a0e57298d",
+      "old_size": 2151,
+      "new_size": 2151,
+      "blob": "payload/member-18.bin",
+      "blob_sha256": "38e8bd7ed9ec402a0bd9a3e91cc952dc7ae9163484c4beeafcb5da3a0e57298d",
+      "segments": [
+        [
+          "add",
+          0,
+          2151
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0302.xmb",
+      "before": "66ede1f8b2e99f0444374a33e7c451ba7560ad2f114dc06bcf9eb143488b7818",
+      "after": "17053c95475e0d6d52ea9772aa1775127c1e88f0bf724d470fbe89036a6a7749",
+      "old_size": 1911,
+      "new_size": 1911,
+      "blob": "payload/member-19.bin",
+      "blob_sha256": "17053c95475e0d6d52ea9772aa1775127c1e88f0bf724d470fbe89036a6a7749",
+      "segments": [
+        [
+          "add",
+          0,
+          1911
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0341.xmb",
+      "before": "679562316fd006765f6056e78e76164ceca0aacd2db64fdb4f882d6a9b0ee898",
+      "after": "979744dd57364bdfc0d4eeb5040579f05b085783e797f340032bd11604e3a31a",
+      "old_size": 1343,
+      "new_size": 1343,
+      "blob": "payload/member-20.bin",
+      "blob_sha256": "979744dd57364bdfc0d4eeb5040579f05b085783e797f340032bd11604e3a31a",
+      "segments": [
+        [
+          "add",
+          0,
+          1343
+        ]
+      ]
+    },
+    {
+      "path": "game/language/lang_file_jp04_0343.xmb",
+      "before": "b81d2474db7d4060f1d8701530cad208fbc4c802134d23b981377053cd0afaab",
+      "after": "38e8bd7ed9ec402a0bd9a3e91cc952dc7ae9163484c4beeafcb5da3a0e57298d",
+      "old_size": 2151,
+      "new_size": 2151,
+      "blob": "payload/member-21.bin",
+      "blob_sha256": "38e8bd7ed9ec402a0bd9a3e91cc952dc7ae9163484c4beeafcb5da3a0e57298d",
+      "segments": [
+        [
+          "add",
+          0,
+          2151
+        ]
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "USRDIR/patch/patch0100_arb.sdat",
+      "before": "a1a7e32ad34adc86bc1a76385a0c24aab2a9e1d667d61151f7fe920c297a63e1",
+      "after": "a783dccb079658922cfb5ff320e6d5c5432a2f4c453704fbda096af27071ecfc",
+      "old_size": 66348400,
+      "new_size": 66519776,
+      "blob": "payload/patch0100_arb.bin",
+      "blob_sha256": "f9a1eb16988e7ff1fe5e67adb3242b5bacc330349748180389a1ed3dc9be1b57",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4096,
+          57344
+        ],
+        [
+          "add",
+          4096,
+          20480
+        ],
+        [
+          "copy",
+          81744,
+          66265088
+        ],
+        [
+          "add",
+          24576,
+          172768
+        ]
+      ]
+    },
+    {
+      "path": "USRDIR/patch/patch0200_arb.sdat",
+      "before": "8ac0d8fdad6600df9313fa6245f1eaaf693a6249508942389a759fff33524ba3",
+      "after": "2e3ffaec90c01cb09104c0f09d1b8aabd39c257a60540a9c44c513819a001403",
+      "old_size": 23107088,
+      "new_size": 23356800,
+      "blob": "payload/patch0200_arb.bin",
+      "blob_sha256": "426f9f86d9de8c808a4b1260e9893243282d795df0c8fab92a9429c58e55df9e",
+      "segments": [
+        [
+          "add",
+          0,
+          4096
+        ],
+        [
+          "copy",
+          4096,
+          16384
+        ],
+        [
+          "add",
+          4096,
+          20480
+        ],
+        [
+          "copy",
+          40704,
+          23064576
+        ],
+        [
+          "add",
+          24576,
+          251264
+        ]
+      ]
+    }
+  ]
+}
