@@ -1,0 +1,3 @@
+请先阅读 使用说明.md（可用记事本打开）。
+Windows 双击 Windows安装.bat；Mac 双击 macOS安装.command。
+内置 Python，无需另外安装。完整解压后使用。

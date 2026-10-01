@@ -1,0 +1,22 @@
+{
+  "passed": [
+    "9/17_full_install_and_cache_sha",
+    "9/17_repeat_noop",
+    "9/17_restore_repeat_and_original_sha",
+    "9/25_full_install_and_cache_sha",
+    "9/25_repeat_noop",
+    "9/25_restore_repeat_and_original_sha",
+    "unknown_resource_refused"
+  ],
+  "platform": "macOS Apple Silicon; bundled CPython",
+  "windows_tested": false,
+  "intel_mac_tested": false,
+  "game_tested": false,
+  "failure_tests": [
+    "second_file_commit_failure_restores_all",
+    "interrupted_commit_journal_recovery",
+    "restore_refuses_later_modifications",
+    "insufficient_space_before_write",
+    "corrupted_payload_no_output_or_source_change"
+  ]
+}

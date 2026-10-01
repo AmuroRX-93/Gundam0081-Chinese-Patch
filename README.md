@@ -1,3 +1,11 @@
+## 最新更新：水天之泪 20261001 候选累计升级（预发布）
+
+[下载最新版升级包](https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/releases/tag/v2026.10.01-candidate.1) · [完整使用说明](releases/20261001/使用说明.md)
+
+从公开 9 月 17 日或 9 月 25 日汉化资源累计升级，内置 Windows/Mac Python。候选预发布：菜单、战斗及 PS3 实机待验证。
+
+---
+
 # PS3《机动战士高达战记／水天之泪》简体中文汉化补丁（BLJS-10050）
 
 适用于 PS3 日版 **BLJS10050 / BLJS-10050**《機動戦士ガンダム戦記》，英文名 **Mobile Suit Gundam: Battlefield Record U.C. 0081 / Kidou Senshi Gundam Senki**，中文常称“高达战记 0081”或“水天之泪”。面向 RPCS3 的匹配原版文件夹游戏，包含光盘本体及 **APP_VER 01.02** 升级资源汉化。
