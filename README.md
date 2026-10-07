@@ -1,3 +1,11 @@
+<!-- latest-release-20261007 -->
+## 最新正式发布（2026-10-07）
+
+[水天之泪 中文更新包 20261007 正式版](https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/releases/tag/v2026.10.07-update.1)
+
+资源保持 20261001，本次合入安装器启动和 Windows 编码修复，资源逐字节保持一致。保留原包的基线要求与恢复功能，请先读包内说明。离线安装器测试通过；Windows 与本轮游戏内启动尚未实机验证。此前黑屏反馈尚未确认解决，正式发布状态不表示该问题已修复；遇到异常请使用包内恢复功能。
+<!-- /latest-release-20261007 -->
+
 ## 最新更新：水天之泪 20261001 候选累计升级（预发布）
 
 [下载最新版升级包](https://github.com/AmuroRX-93/Gundam0081-Chinese-Patch/releases/tag/v2026.10.01-candidate.1) · [完整使用说明](releases/20261001/使用说明.md)
